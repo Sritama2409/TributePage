@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;  /* Light background */
+    color: #333;
+    line-height: 1.6;
+}
+
+.tribute-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section (Image and Name Side by Side) */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.tribute-img {
+    width: 150px;
+    height: auto;
+    border: 3px solid black;  /* Black border for distinction */
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Name Styling */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+    margin: 0;
+}
+
+/* Content Section Styling */
+.content {
+    margin-top: 20px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+h2 {
+    font-size: 28px;
+    color: #444;
+    margin-top: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* Styling for Different Sections */
+h2 + p {
+    margin-top: 10px;
+}
